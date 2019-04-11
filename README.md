@@ -1,4 +1,4 @@
-# Align-to-padding
+# Align To Padding
 
 Align layers in a group with padding applied
 
