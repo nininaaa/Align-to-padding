@@ -1,0 +1,27 @@
+{
+  "name": "align-to-padding",
+  "description": "Align layers in a group with padding applied",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "align-to-padding",
+    "manifest": "src/manifest.json",
+    "main": "align-to-padding.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "repository": "https://github.com/franklymrshankly/Align-to-padding",
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.11"
+  },
+  "author": "Jonathan Tran"
+}

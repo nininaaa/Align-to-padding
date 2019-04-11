@@ -1,0 +1,49 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "appcast": "",
+  "commands": [
+    {
+      "name": "Align-top",
+      "identifier": "align-to-padding.alignTop-identifier",
+      "script": "./alignTop.js"
+    },
+    {
+      "name": "Align-right",
+      "identifier": "align-to-padding.alignRight-identifier",
+      "script": "./alignRight.js"
+    },
+    {
+      "name": "Align-bottom",
+      "identifier": "align-to-padding.alignBottom-identifier",
+      "script": "./alignBottom.js"
+    },
+    {
+      "name": "Align-left",
+      "identifier": "align-to-padding.alignLeft-identifier",
+      "script": "./alignLeft.js"
+    },
+    {
+      "name": "Full-width",
+      "identifier": "align-to-padding.fullWidth-identifier",
+      "script": "./fullWidth.js"
+    },
+    {
+      "name": "Full-height",
+      "identifier": "align-to-padding.fullHeight-identifier",
+      "script": "./fullHeight.js"
+    }
+  ],
+  "menu": {
+    "title": "Align to padding",
+    "items": [
+      "align-to-padding.alignTop-identifier",
+      "align-to-padding.alignRight-identifier",
+      "align-to-padding.alignBottom-identifier",
+      "align-to-padding.alignLeft-identifier",
+      "align-to-padding.fullWidth-identifier",
+      "align-to-padding.fullHeight-identifier"
+    ]
+  }
+}
