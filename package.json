@@ -6,9 +6,12 @@
     "sketch": ">=49.0"
   },
   "skpm": {
-    "name": "align-to-padding",
+    "name": "Align-to-padding",
+    "title": "Align-to-padding",
     "manifest": "src/manifest.json",
     "main": "align-to-padding.sketchplugin",
+    "identifier": "align-to-padding.align-to-padding-identifier",
+    "appcast": "https://raw.githubusercontent.com/franklymrshankly/Align-to-padding/master/.appcast.xml",
     "assets": [
       "assets/**/*"
     ]
