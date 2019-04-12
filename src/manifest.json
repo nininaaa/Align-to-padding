@@ -5,6 +5,7 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
+  "identifier": "franklymrshankly.sketch.align-to-padding",
   "appcast": "https://raw.githubusercontent.com/franklymrshankly/Align-to-padding/master/.appcast.xml",
   "commands": [
     {
