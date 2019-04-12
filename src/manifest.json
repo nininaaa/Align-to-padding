@@ -4,6 +4,7 @@
   "author": "Jonathan Tran",
   "compatibleVersion": 3,
   "bundleVersion": 1,
+  "appcast": "https://raw.githubusercontent.com/franklymrshankly/Align-to-padding/master/.appcast.xml",
   "icon": "icon.png",
   "commands": [
     {
