@@ -5,6 +5,7 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
+  "appcast": "https://raw.githubusercontent.com/franklymrshankly/Align-to-padding/master/.appcast.xml",
   "commands": [
     {
       "name": "Align-top",
@@ -56,6 +57,5 @@
   },
   "version": "0.1.0",
   "identifier": "Align-to-padding",
-  "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com/franklymrshankly/Align-to-padding/master/.appcast.xml"
+  "disableCocoaScriptPreprocessor": true
 }
