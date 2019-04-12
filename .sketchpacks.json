@@ -1,5 +1,5 @@
 {
   "schema_version": "0.1.0",
-  "manifest_path": "./manifest.json",
+  "manifest_path": "https://raw.githubusercontent.com/franklymrshankly/Align-to-padding/master/src/manifest.json",
   "appcast_path": "https://raw.githubusercontent.com/franklymrshankly/Align-to-padding/master/.appcast.xml"
 }
