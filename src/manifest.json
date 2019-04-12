@@ -1,4 +1,7 @@
 {
+  "name": "Align To Padding",
+  "description": "Align layers in a group with padding applied",
+  "author": "Jonathan Tran",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
