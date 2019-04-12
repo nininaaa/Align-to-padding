@@ -1,0 +1,61 @@
+{
+  "name": "Align To Padding",
+  "description": "Align layers in a group with padding applied",
+  "author": "Jonathan Tran",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Align-top",
+      "identifier": "align-to-padding.alignTop-identifier",
+      "shortcut": "command shift ↑",
+      "script": "alignTop.js"
+    },
+    {
+      "name": "Align-right",
+      "identifier": "align-to-padding.alignRight-identifier",
+      "shortcut": "command shift →",
+      "script": "alignRight.js"
+    },
+    {
+      "name": "Align-bottom",
+      "identifier": "align-to-padding.alignBottom-identifier",
+      "shortcut": "command shift ↓",
+      "script": "alignBottom.js"
+    },
+    {
+      "name": "Align-left",
+      "identifier": "align-to-padding.alignLeft-identifier",
+      "shortcut": "command shift ←",
+      "script": "alignLeft.js"
+    },
+    {
+      "name": "Full-width",
+      "identifier": "align-to-padding.fullWidth-identifier",
+      "shortcut": "command shift ,",
+      "script": "fullWidth.js"
+    },
+    {
+      "name": "Full-height",
+      "identifier": "align-to-padding.fullHeight-identifier",
+      "shortcut": "command shift .",
+      "script": "fullHeight.js"
+    }
+  ],
+  "menu": {
+    "title": "Align to padding",
+    "items": [
+      "align-to-padding.alignTop-identifier",
+      "align-to-padding.alignRight-identifier",
+      "align-to-padding.alignBottom-identifier",
+      "align-to-padding.alignLeft-identifier",
+      "align-to-padding.fullWidth-identifier",
+      "align-to-padding.fullHeight-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "identifier": "Align-to-padding",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/franklymrshankly/Align-to-padding/master/.appcast.xml"
+}
